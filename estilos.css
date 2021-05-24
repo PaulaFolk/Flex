@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background: pink;
+    color: rgb(255, 45, 7);
+    padding: 0.5em 3em;
+    margin-bottom: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 45%;
+    height: 45%;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+}
+
+#contenedor{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.primero{
+    background-color: blueviolet;
+    width: 30%;
+    padding: 2%;
+    box-sizing: border-box;
+}
+
+.segundo{
+    background-color: rgb(43, 101, 226);
+    width: 30%;
+    padding: 2%;
+    box-sizing: border-box;
+}
+
+.tercero{
+    background-color: rgb(43, 226, 67);
+    width: 30%;
+    padding: 2%;
+    box-sizing: border-box;
+
+}
+
+.tercero img{
+    width: 80%;
+}
+
+
+.navbar ul{
+    display: flex;
+   list-style-type: none;
+}
+
+.navbar ul li{
+    padding: 1em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.footer{
+    display: flex;
+    margin-top: 2em;
+    borter-top: 5px solid gray;
+    padding: 2em 3em;
+    justify-content: space-between;
+}
+
+.data{
+    background: pink;
+    padding: 2em;
+    color: black;
+    border-radius: 3%;
+    height: 30px;
+}
+
+.map{
+    width: 60%;
+}
+
+@media screen and (min-width: 660px) and (max-width:800px){
+    body{
+        background-color: yellow;
+    }
+    
+}
